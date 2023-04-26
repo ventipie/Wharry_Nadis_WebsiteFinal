@@ -76,7 +76,7 @@ font-style: normal;
 
 
   .hero-img {
-    background-image: url(../images/pexels-daniel-torobekov-13689826.png);
+    background-image: url(../images/Background4.png);
     background-size: cover;
     height: 400px;
     position: relative;
@@ -167,6 +167,11 @@ font-style: normal;
   }
   
   /* colors */
+
+  span.c1 {
+    color: #FFBB00;
+  }
+
   .gray {
     background-color: #FFBB00;
   }
