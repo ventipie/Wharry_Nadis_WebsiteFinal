@@ -76,7 +76,7 @@ font-style: normal;
 
 
   .hero-img {
-    background-image: url(../images/victoria-shes-1.jpg);
+    background-image: url(../images/pexels-daniel-torobekov-13689826.png);
     background-size: cover;
     height: 400px;
     position: relative;
@@ -199,29 +199,7 @@ animation-duration: 5s;
 animation-fill-mode: forwards;
 }
 
-.rotate{
-  opacity: 0;
-}
 
-.rotate.active{
-animation-name: rotate;
-animation-timing-function: ease;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-}
-
-.shake{
-  opacity: 1;
-  animation: shake 0.5s;
-}
-
-.shake.active{
-animation-name: shake;
-animation-timing-function: ease;
-animation-duration: 2s;
-animation-fill-mode: forwards;
-animation-iteration-count: 2;
-}
 
 
 @keyframes fade-in {
@@ -234,33 +212,6 @@ animation-iteration-count: 2;
     transform: translateY(0px);
   }
 }
-
-@keyframes rotate {
-  0% {
-    opacity: 0;
-    transform: rotate(0deg);
-  }
-  100%{
-    opacity: 1;
-    transform: rotate(720deg);
-  }
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(-1deg); }
-  100% { transform: translate(1px, -2px) rotate(0deg);
-}
-}
-
 
 
 

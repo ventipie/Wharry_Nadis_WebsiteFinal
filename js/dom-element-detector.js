@@ -31,8 +31,6 @@ $(document).ready(function () {
             }
             /* Add animations here */
             domElemDetector($('.fade-in'));
-            domElemDetector($('.rotate'));
-            domElemDetector($('.shake'));
         });
     });
 
